@@ -1,5 +1,5 @@
 package entity.combat.damage;
 
-public class Status {
+public class WeaponEffects {
 
 }

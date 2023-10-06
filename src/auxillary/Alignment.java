@@ -1,5 +1,5 @@
-package com.auxillary;
+package auxillary;
 
 public enum Alignment {
-    CELESTIAL, BESTIAL, HEDONISTIC, INFERNAL;
+  HORDE, KNIGHT, MERCANTILE, PRIEST, TRIBAL;
 }

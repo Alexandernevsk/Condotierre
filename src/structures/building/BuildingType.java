@@ -1,4 +1,4 @@
-package com.structures.building;
+package structures.building;
 
 public enum BuildingType {
     RECRUIT, STORE, LORE, ECONOMY, SPECIAL;

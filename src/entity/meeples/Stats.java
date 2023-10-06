@@ -1,2 +1,6 @@
-package entity.meeples;public class Stats {
+package entity.meeples;
+
+public class Stats {
+    private double hitPoints;
+
 }

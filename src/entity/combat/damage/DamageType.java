@@ -1,2 +1,5 @@
-package entity.combat.damage;public enum DamageType {
+package entity.combat.damage;
+
+public enum DamageType {
+    BLUNT, SHARP, RANGE, ARCANE;
 }

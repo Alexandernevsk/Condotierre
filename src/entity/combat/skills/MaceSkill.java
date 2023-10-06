@@ -4,16 +4,12 @@ import entity.combat.CombatType;
 import entity.combat.Combat_Mastery;
 import entity.combat.damage.DamageType;
 
-public class Mace extends Combat_Mastery {
+public class MaceSkill extends Combat_Mastery {
 
 
-    public Mace(int skillLevel) {
-        super(CombatType.MELEE, DamageType.BLUNT, skillLevel, new String[]{"Strike", "Stun", "Break"});
+    public MaceSkill(int skillLevel) {
+        super(CombatType.MELEE, DamageType.BLUNT, skillLevel);
     }
 
-    @Override
-    public void fight() {
-
-    }
 
 }

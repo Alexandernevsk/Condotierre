@@ -1,16 +1,23 @@
-package com.structures.town;
+package structures.town;
 
 import auxillary.Alignment;
 import auxillary.Gold;
 import auxillary.Tier;
-import com.structures.building.BuildingCost;
-import com.structures.building.BuildingType;
+import structures.building.BuildingCost;
+import structures.building.BuildingType;
 
 public class TownBuilding {
-    private String name;
+    private String buildingName;
     private Tier buildingTier;
     private Gold goldCost;
     private BuildingCost buildingCost;
-    private Alignment townType;
     private BuildingType buildingType;
+
+    public TownBuilding(String buildingName, Tier buildingTier, Gold goldCost, BuildingCost buildingCost, BuildingType buildingType) {
+        this.buildingName = buildingName;
+        this.buildingTier = buildingTier;
+        this.goldCost = goldCost;
+        this.buildingCost = buildingCost;
+        this.buildingType = buildingType;
+    }
 }

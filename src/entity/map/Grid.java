@@ -1,2 +1,5 @@
-package entity.map;public class Grid {
+package entity.map;
+
+public abstract class Grid {
+    abstract void render();
 }

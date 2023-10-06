@@ -1,2 +1,5 @@
-package entity.movement;public class MovementCalculator {
+package entity.movement;
+
+public class MovementCalculator {
+
 }
