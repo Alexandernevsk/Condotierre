@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d6cf30-a868-4a5b-9981-c47832e01513" name="Changes" comment="">
+    <list default="true" id="a1d6cf30-a868-4a5b-9981-c47832e01513" name="Changes" comment="Campaing movement implementation">
+      <change afterPath="$PROJECT_DIR$/src/map/CampaignMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Coast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Farmland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Hill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Lake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/Sea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/terrain/TerrainType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auxillary/Alignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auxillary/Alignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auxillary/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auxillary/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auxillary/Tier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auxillary/Tier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/CombatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/CombatType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/Combat_Mastery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/Combat_Mastery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/damage/DamageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/damage/DamageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/damage/WeaponEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/damage/WeaponEffects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/skills/MaceSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/skills/MaceSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/skills/SpearSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/skills/SpearSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/combat/skills/SwordSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/combat/skills/SwordSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/map/CombatGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/map/CombatGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/map/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/map/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/map/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/map/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/map/Tiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/map/Tiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/meeples/Ethnicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/meeples/Ethnicity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/meeples/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/meeples/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/meeples/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/meeples/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/meeples/Traits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/meeples/Traits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/map/CombatGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/map/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/map/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/map/Tiles.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/movement/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/movement/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/movement/MovementCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/movement/MovementCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/building/BuildingCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/building/BuildingCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/building/BuildingMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/building/BuildingMaterials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/building/BuildingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/building/BuildingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/town/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/town/Town.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/town/TownBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/town/TownBuilding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -86,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1693290011318</updated>
     </task>
+    <task id="LOCAL-00001" summary="Campaing movement implementation">
+      <created>1696603535260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696603535260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Campaing movement implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Campaing movement implementation" />
   </component>
 </project>
